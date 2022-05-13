@@ -1,0 +1,16 @@
+{
+  "name": "commonpackage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "project1": "npm install $npm_config_packages"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "is-number": "^6.0.0",
+    "is-odd": "^3.0.0"
+  }
+}
