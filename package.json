@@ -5,12 +5,11 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "project1": "npm install $npm_config_packages"
+    "project1": "npm run install --workspace=project1"
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "is-number": "^6.0.0",
-    "is-odd": "^3.0.0"
-  }
+  "workspaces": [
+    "project1"
+  ]
 }
